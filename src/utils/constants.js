@@ -1,0 +1,1 @@
+export const BASE_URL = "https://devtinderb-6u2a.onrender.com"
