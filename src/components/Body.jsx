@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom"
 import { Outlet } from "react-router-dom"
 import Footer from "./Footer"
 
-import bg from "../assets/bgImg.jpg";
+
 
 const Body = () => {
 
@@ -46,7 +46,7 @@ useEffect(() => {
 
   return (
     <>   
-   <div className="h-screen bg-cover bg-center" style={{ backgroundImage: `url(${bg})` }}>
+   <div className="h-screen bg-cover bg-center" style={{ backgroundImage: `url("/bgImg.jpg)` }}>
        <Navbar />
        <Outlet />
     </div>

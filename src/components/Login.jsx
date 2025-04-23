@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux"
 import { addUser } from "../utils/userSlice"
 import { useNavigate } from "react-router-dom"
 import { BASE_URL } from "../utils/constants"
-import bg2 from "../assets/bgImg2";
+
 
 
 const Login = () => {
@@ -51,7 +51,7 @@ const Login = () => {
   return (
     <div 
     className="h-screen w-screen bg-cover bg-center absolute"
-   style={{ backgroundImage: `url(${bg2})` }}
+   style={{ backgroundImage: `url('/bgImg2.jpg')` }}
   >
  <div className="relative my-20">
       <div className="card bg-base-200 w-70 md:w-96 shadow-sm m-auto">
