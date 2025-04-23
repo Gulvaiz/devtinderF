@@ -46,7 +46,7 @@ useEffect(() => {
 
   return (
     <>   
-   <div className="h-screen bg-cover bg-center" style={{ backgroundImage: `url("/bgImg.jpg)` }}>
+   <div className="h-screen bg-cover bg-center"  style={{ backgroundImage: `url('/bgImg.jpg')` }}>
        <Navbar />
        <Outlet />
     </div>
